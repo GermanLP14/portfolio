@@ -7,42 +7,42 @@ const items = [
   {
     id: 1,
     title: "Censo 2023",
-    img: "./public/Censo 2023.png",
+    img: "/public/Censo 2023.png",
     desc: "Desarrollo frontend que simula el censo de Uruguay. Utilicé tecnologías como HTML, CSS y React para crear una interfaz de usuario intuitiva y accesible que facilitara la participación de los ciudadanos en el censo.",
     url: "https://censouruguay.netlify.app"
   },
   {
     id: 2,
     title: "Api Marvel",
-    img: "./public/Api marvel.png",
+    img: "/public/Api marvel.png",
     desc: "En este proyecto de frontend, desarrollé una aplicación web que interactúa con la API de Marvel para mostrar una galería de diversos personajes de cómics. Utilicé HTML para estructurar la página, CSS para el diseño y estilizado, y JavaScript para realizar solicitudes a la API y mostrar dinámicamente los personajes",
     url: "https://germanlp14.github.io/Api-Marvel/index.html"
   },
   {
     id: 3,
     title: "A Day To Remember",
-    img: "./public/A day to remember.png",
+    img: "/public/A day to remember.png",
     desc: "En este proyecto, diseñé una página web inspirada en la banda A Day to Remember utilizando HTML y CSS. La página presenta un diseño profesional y atractivo que refleja la estética y la energía de la banda. Incorporé elementos visuales llamativos, como imágenes(arte) de la banda y álbumes, junto con una paleta de colores dinámica que resalta la identidad de la banda.",
     url: "https://germanlp14.github.io/A-Day-To-Remember/index.html"
   },
   {
     id: 4,
     title: "Bienes Raices",
-    img: "./public/bienesRaices.png",
+    img: "/public/bienesRaices.png",
     desc: "Esta pagina es uno de mis primeros proyectos trabajando con HTML y CSS. La misma representa una pagina de bienes raices dividida en secciones impartiendo informacion a través de un diseño simple pero moderno.",
     url: "https://wonderful-bartik-24e60a.netlify.app/"
   },
   {
     id: 5,
     title: "Blog Café",
-    img: "./public/cafe.png",
+    img: "/public/cafe.png",
     desc: "Utilizando HTML y CSS realicé este trabajo que representa una pagina/blog que trata acerca del café y sus diferentes usos. Diseño sencillo y minimalista pero atractivo que combinado con una paleta de colores transmiten la escencia del café. ",
     url: "https://heuristic-albattani-42658b.netlify.app/"
   },
   {
     id: 6,
     title: "FrontEnd Store",
-    img: "./public/store.png",
+    img: "/public/store.png",
     desc: "Proyecto sencillo el cual representa un store temático para desarrolladores. Enfocado en que sea una interfaz sencilla y amigable utilicé colores llamativos e imagenes claras que puedan atraer nuevos usuarios.",
     url: "https://eager-payne-908c31.netlify.app/"
   },
