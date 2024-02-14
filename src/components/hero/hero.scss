@@ -10,6 +10,8 @@
     max-width: 1366px;
     height: 100%;
     margin: auto;
+    position: relative;
+    z-index: 2;
 
     .textContainer {
       width: 50%;
@@ -42,14 +44,25 @@
       }
 
       .buttons {
-        button {
+        a {
           padding: 20px;
           border: 1px solid white;
           border-radius: 10px;
           background-color: transparent;
           color: white;
           margin-right: 20px;
-          cursor: pointer;
+          cursor: pointer !important;
+          font-weight: 300;
+        }
+
+        a:hover {
+          padding: 20px;
+          border: 1px solid black;
+          border-radius: 10px;
+          background-color: white;
+          color: black;
+          margin-right: 20px;
+          cursor: pointer !important;
           font-weight: 300;
         }
       }

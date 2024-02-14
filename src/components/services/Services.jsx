@@ -24,35 +24,38 @@ const Services = () => {
 
   const isInView = useInView(ref, { margin: "-100px" });
 
+  function cv() {
+    location.href = "https://drive.google.com/file/d/1PhPgj8nTCudSGygTOVKEr5o7FjZONeyU/view?usp=sharing";
+};
+
   return (
     <motion.div
       className="services"
       variants={variants}
       initial="initial"
-      // animate="animate"
-      // whileInView="animate"
+      animate="animate"
+      whileInView="animate"
       ref={ref}
-      animate={"animate"}
     >
       <motion.div className="textContainer" variants={variants}>
-        {/* <p>
+        <p>
           I focus on helping your brand grow
           <br /> and move forward
-        </p> */}
+        </p>
         <hr />
       </motion.div>
       <motion.div className="titleContainer" variants={variants}>
         <div className="title">
-          <img src="/people.webp" alt="" />
+          <img src="/front-end.png" alt="" />
           <h1>
-            <motion.b whileHover={{ color: "orange" }}>Stack</motion.b> de
+            <motion.b whileHover={{ color: "orange" }}>Technology</motion.b>
           </h1>
         </div>
         <div className="title">
           <h1>
-            <motion.b whileHover={{ color: "orange" }}>Tecnologias</motion.b>
+            <motion.b whileHover={{ color: "orange" }}>Stack</motion.b>
           </h1>
-          <button>Curriculum</button>
+          <a href="https://drive.google.com/file/d/1PhPgj8nTCudSGygTOVKEr5o7FjZONeyU/view?usp=sharing" target="_blank">Curriculum</a>
         </div>
       </motion.div>
       <motion.div className="listContainer" variants={variants}>

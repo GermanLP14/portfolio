@@ -8,42 +8,42 @@ const items = [
     id: 1,
     title: "Censo 2023",
     img: "/public/Censo 2023.png",
-    desc: "Desarrollo frontend que simula el censo de Uruguay. Utilicé tecnologías como HTML, CSS y React para crear una interfaz de usuario intuitiva y accesible que facilitara la participación de los ciudadanos en el censo.",
+    desc: "Frontend development that simulates Uruguay's census. I used technologies such as HTML, CSS and React to create an intuitive and accessible user interface that made it easy for citizens to participate in the census.",
     url: "https://censouruguay.netlify.app"
   },
   {
     id: 2,
     title: "Api Marvel",
     img: "/public/Api marvel.png",
-    desc: "En este proyecto de frontend, desarrollé una aplicación web que interactúa con la API de Marvel para mostrar una galería de diversos personajes de cómics. Utilicé HTML para estructurar la página, CSS para el diseño y estilizado, y JavaScript para realizar solicitudes a la API y mostrar dinámicamente los personajes",
+    desc: "In this frontend project, I developed a web application that interacts with the Marvel API to display a gallery of various comic book characters. Used HTML to structure the page, CSS for layout and styling, and JavaScript to make API requests and dynamically display the characters",
     url: "https://germanlp14.github.io/Api-Marvel/index.html"
   },
   {
     id: 3,
     title: "A Day To Remember",
     img: "/public/A day to remember.png",
-    desc: "En este proyecto, diseñé una página web inspirada en la banda A Day to Remember utilizando HTML y CSS. La página presenta un diseño profesional y atractivo que refleja la estética y la energía de la banda. Incorporé elementos visuales llamativos, como imágenes(arte) de la banda y álbumes, junto con una paleta de colores dinámica que resalta la identidad de la banda.",
+    desc: "In this project, I designed a website inspired by the band A Day to Remember using HTML and CSS. The page features a professional and attractive design that reflects the aesthetics and energy of the band. I incorporated striking visual elements, such as images(art) of the band and albums, along with a dynamic color palette that highlights the band's identity.",
     url: "https://germanlp14.github.io/A-Day-To-Remember/index.html"
   },
   {
     id: 4,
     title: "Bienes Raices",
     img: "/public/bienesRaices.png",
-    desc: "Esta pagina es uno de mis primeros proyectos trabajando con HTML y CSS. La misma representa una pagina de bienes raices dividida en secciones impartiendo informacion a través de un diseño simple pero moderno.",
+    desc: "This page is one of my first projects working with HTML and CSS. It represents a real estate page divided into sections providing information through a simple but modern design.",
     url: "https://wonderful-bartik-24e60a.netlify.app/"
   },
   {
     id: 5,
     title: "Blog Café",
     img: "/public/cafe.png",
-    desc: "Utilizando HTML y CSS realicé este trabajo que representa una pagina/blog que trata acerca del café y sus diferentes usos. Diseño sencillo y minimalista pero atractivo que combinado con una paleta de colores transmiten la escencia del café. ",
+    desc: "Using HTML and CSS I carried out this work that represents a page/blog that is about coffee and its different uses. Simple and minimalist but attractive design that, combined with a color palette, transmits the essence of coffee.",
     url: "https://heuristic-albattani-42658b.netlify.app/"
   },
   {
     id: 6,
     title: "FrontEnd Store",
     img: "/public/store.png",
-    desc: "Proyecto sencillo el cual representa un store temático para desarrolladores. Enfocado en que sea una interfaz sencilla y amigable utilicé colores llamativos e imagenes claras que puedan atraer nuevos usuarios.",
+    desc: "Simple project which represents a thematic store for developers. Focusing on a simple and friendly interface, I used striking colors and clear images that can attract new users.",
     url: "https://eager-payne-908c31.netlify.app/"
   },
 ];
