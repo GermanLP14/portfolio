@@ -58,6 +58,9 @@ const Services = () => {
           <a href="https://drive.google.com/file/d/1PhPgj8nTCudSGygTOVKEr5o7FjZONeyU/view?usp=sharing" target="_blank">Curriculum</a>
         </div>
       </motion.div>
+
+      {/* TECNOLOGIAS */}
+
       <motion.div className="listContainer" variants={variants}>
         <motion.div
           className="box"
@@ -79,6 +82,8 @@ const Services = () => {
             />
           </svg>
         </motion.div>
+
+
         <motion.div
           className="box"
           whileHover={{ background: "lightgray", color: "black" }}
@@ -99,6 +104,8 @@ const Services = () => {
             />
           </svg>
         </motion.div>
+
+
         <motion.div
           className="box"
           whileHover={{ background: "lightgray", color: "black" }}
@@ -125,6 +132,8 @@ const Services = () => {
             </g>
           </svg>
         </motion.div>
+
+
         <motion.div
           className="box"
           whileHover={{ background: "lightgray", color: "black" }}
@@ -149,6 +158,7 @@ const Services = () => {
             />
           </svg>
         </motion.div>
+        
       </motion.div>
     </motion.div>
   );
