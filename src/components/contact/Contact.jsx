@@ -33,6 +33,7 @@ const Contact = () => {
       emailjs.sendForm('service_3jsa909', 'template_i71ig8u', formRef.current, '8bo27ZxONkQGkfEgj')
         .then((result) => {
             setSuccess(true);
+            formulario.reset();
         }, (error) => {
             setError(true);
         });
@@ -47,7 +48,7 @@ const Contact = () => {
       whileInView="animate"
     >
       <motion.div className="textContainer" variants={variants}>
-        <motion.h1 variants={variants}>Trabajemos juntos</motion.h1>
+        <motion.h1 variants={variants}>Let's Work Together</motion.h1>
 
         <motion.div className="item" variants={variants}>
           <h2>Mail</h2>
@@ -100,6 +101,7 @@ const Contact = () => {
 
         </motion.div>
         <motion.form
+          id="formulario"
           ref={formRef}
           onSubmit={sendEmail}
           initial={{ opacity: 0 }}
@@ -110,7 +112,7 @@ const Contact = () => {
           <textarea rows={8} placeholder="Message" name="message"/>
           <button>Submit</button>
           {error && "Error"}
-          {success && "Success"}
+          {success && "Message sent successfully"}
         </motion.form>
       </div>
     </motion.div>
