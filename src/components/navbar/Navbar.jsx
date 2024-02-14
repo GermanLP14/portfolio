@@ -14,6 +14,7 @@ const Navbar = () => {
             <div className="social">
                 <a href="https://github.com/GermanLP14" target="_blank"><img src="/github.png" alt="" /></a>
                 <a href="https://www.linkedin.com/in/german-laurito-997684190/" target="_blank"><img src="/linkedin.png" alt="" /></a>
+                <a href="https://app.netlify.com/teams/germanlauritopass14/sites" target="_blank"><img src="/netlify.webp" alt="" /></a>
             </div>
         </div>
     </div>

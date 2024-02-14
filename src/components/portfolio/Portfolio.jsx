@@ -7,14 +7,14 @@ const items = [
   {
     id: 1,
     title: "Censo 2023",
-    img: "/public/Censo 2023.png",
+    img: "./public/Censo 2023.png",
     desc: "Frontend development that simulates Uruguay's census. I used technologies such as HTML, CSS and React to create an intuitive and accessible user interface that made it easy for citizens to participate in the census.",
     url: "https://censouruguay.netlify.app"
   },
   {
     id: 2,
     title: "Api Marvel",
-    img: "/public/Api marvel.png",
+    img: "./public/Api marvel.png",
     desc: "In this frontend project, I developed a web application that interacts with the Marvel API to display a gallery of various comic book characters. Used HTML to structure the page, CSS for layout and styling, and JavaScript to make API requests and dynamically display the characters",
     url: "https://germanlp14.github.io/Api-Marvel/index.html"
   },
