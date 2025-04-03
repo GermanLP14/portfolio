@@ -25,8 +25,7 @@ const Services = () => {
   const isInView = useInView(ref, { margin: "-100px" });
 
   function cv() {
-    location.href = "https://drive.google.com/file/d/1EfdTNXIxNBppY8_oFG6a2gpAXpmpH459/view?usp=sharing";
-};
+    location.href = "https://drive.google.com/file/d/1PhPgj8nTCudSGygTOVKEr5o7FjZONeyU/view?usp=sharing"}
 
   return (
     <motion.div
