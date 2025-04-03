@@ -21,7 +21,7 @@ const variants = {
 const Contact = () => {
 
     const ref = useRef();
-    const formRef = useRef();
+    const formRef = useRef(null);
     const [error, setError] = useState(false);
     const [success, setSuccess] = useState(false);
 
@@ -30,7 +30,7 @@ const Contact = () => {
     const sendEmail = (e) => {
       e.preventDefault();
   
-      emailjs.sendForm('service_3jsa909', 'template_i71ig8u', formRef.current, '8bo27ZxONkQGkfEgj')
+      emailjs.sendForm('service_0evoxz9', 'template_i71ig8u', formRef.current, '8bo27ZxONkQGkfEgj')
         .then((result) => {
             setSuccess(true);
             formulario.reset();
