@@ -55,7 +55,7 @@ const Services = () => {
           <h1>
             <motion.b whileHover={{ color: "orange" }}>Stack</motion.b>
           </h1>
-          <a href="https://drive.google.com/file/d/1PhPgj8nTCudSGygTOVKEr5o7FjZONeyU/view?usp=sharing" target="_blank">Curriculum</a>
+          <a href="https://drive.google.com/file/d/1EfdTNXIxNBppY8_oFG6a2gpAXpmpH459/view?usp=sharing" target="_blank">Curriculum</a>
         </div>
       </motion.div>
 
