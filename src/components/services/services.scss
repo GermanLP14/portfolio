@@ -1,0 +1,197 @@
+@import "../../app.scss";
+
+.services{
+    background: linear-gradient(180deg, #0c0c1d, #111132);
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+
+    .textContainer{
+        flex: 1;
+        align-self: flex-end;
+        display: flex;
+        align-items: center;
+        gap: 20px;
+
+        p{
+            font-weight: 200;
+            font-size: 20px;
+            color: gray;
+            text-align: right;
+
+           @include mobile{
+            display: none;
+           }
+
+           @include tablet{
+            display: none;
+           }
+        }
+
+        hr{
+            width: 500px;
+            border: none;
+            border-top: 0.5px solid gray;
+        }
+    }
+
+    .titleContainer{
+        flex: 2;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        @include mobile{
+            display: flex;
+            align-items: center;
+        }
+
+        .title{
+            display: flex;
+            align-items: center;
+            gap: 50px; 
+            
+            @include mobile{
+                display: grid;
+                grid-template-columns: 1fr;
+            }
+
+            img{
+                width: 300px;
+                height: 100px;
+                border-radius: 50px;
+                object-fit: cover;
+
+                @include mobile{
+                    display: none;
+                }
+
+                @include tablet{
+                    display: none;
+                }
+            }
+
+            h1{
+                font-size: 96px;
+                font-weight: 100;
+
+                @include mobile{
+                    font-size: 50px;
+                    flex: 1;           
+                }
+            }
+
+            a{
+                width: 300px;
+                height: 100px;
+                border-radius: 50px;
+                background-color: orange;
+                border: none;
+                font-size: 24px;
+                cursor: pointer;
+                text-align: center;
+                padding: 33px;
+
+                @include mobile{
+                    width: 200px;
+                    height: 80px;
+                    border-radius: 50px;
+                    background-color: orange;
+                    border: none;
+                    font-size: 20px;
+                    cursor: pointer;
+                    text-align: center;
+                    padding: 25px;
+                    color: black;
+                }
+            }
+
+            a:hover{
+                width: 300px;
+                border: 1px solid black;
+                border-radius: 50px;
+                background-color: orange;
+                color: black;
+                font-size: 24px;
+                cursor: pointer;
+                text-align: center;
+                padding: 33px;
+
+                @include mobile{
+                    width: 200px;
+                    height: 80px;
+                    border-radius: 50px;
+                    background-color: orange;
+                    border: none;
+                    font-size: 20px;
+                    cursor: pointer;
+                    text-align: center;
+                    padding: 25px;
+                    color: black;
+                }
+            }
+        }
+    }
+
+    .listContainer{
+        flex: 2;
+        display: flex;
+        max-width: 1366px;
+        margin: auto;
+        padding-bottom: 30px;
+
+        @include mobile{
+            display: grid;
+            grid-template-columns: 150px 150px;
+        }
+
+        @include tablet{
+            display: grid;
+            grid-template-columns: 200px 200px;
+        }
+
+        svg{
+            padding: 10px;
+        }
+
+        .box{
+            padding: 50px;
+            border: 0.5px solid gray;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;  
+            text-align: center;
+
+            
+            @include mobile{
+                border: none;
+            }
+
+            @include tablet{
+                border: none;
+            }
+            
+            h2{
+                @include mobile{
+                    display: none;
+                }
+            }
+
+            svg{
+                @include mobile{
+                    width: 100px;
+                    height: 100px;
+                    margin-left: -25px;
+                }
+
+                @include tablet{
+                    width: 100px;
+                    height: 100px;
+                }
+            }
+            
+        }
+    }
+}
